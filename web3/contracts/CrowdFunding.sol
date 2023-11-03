@@ -8,6 +8,7 @@ contract CrowdFunding {
         string description;
         uint256 target;
         uint256 deadline;
+        
         uint256 amountCollected;
         string image;
          address[] donators;
